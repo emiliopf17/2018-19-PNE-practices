@@ -37,4 +37,4 @@ def count_bases(seq):
     print('Counter:', count_T)
     print('Percentage:',percentage_T,'%')
     return dict(A=count_A,C=count_C,G=count_G, T =count_T)
-count(seq)
+count_bases(seq)
